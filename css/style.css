@@ -1,16 +1,5 @@
-body {
-  background-color: black;
-  text-align: center;
-}
+body { background-color: black; text-align: center; }
 
-ul,
-li {
-  list-style-type: none;
-}
+ul, li { list-style-type: none; }
 
-h1,
-p {
-  color: white;
-}
-
-/*# sourceMappingURL=style.css.map */
+h1, p { color: white; }
