@@ -27,9 +27,9 @@ var movieElements = movies.map(function(movie){
         );
 }); 
 
-var element = 
+var app = 
     React.createElement('div', {},
         React.createElement('h1', {}, 'Movies List'),
         React.createElement('ul', {}, movieElements)
         );
-ReactDOM.render(element, document.getElementById('app'));
+ReactDOM.render(app, document.getElementById('app'));
