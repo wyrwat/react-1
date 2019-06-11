@@ -5,7 +5,7 @@ var movies = [
       desc: 'Movie about young wizard',
       year: 'Release date: 1997',  
       genere: 'Genere: Fantasy',
-      image: './images/harry.jpg'  
+      image: 'images/harry.jpg'  
     },
     {
       id: 2,  
@@ -13,7 +13,7 @@ var movies = [
       desc: 'Movie about king of the Savanna',
       year: 'Release date: 1994',
       genere: 'Genere: Animation',
-      image: './images/krol.jpg'
+      image: 'images/krol.jpg'
     }
   ];
 
@@ -32,4 +32,8 @@ var app =
         React.createElement('h1', {}, 'Movies List'),
         React.createElement('ul', {}, movieElements)
         );
+<<<<<<< HEAD
 ReactDOM.render(app, document.getElementById('app'));
+=======
+ReactDOM.render(element, document.getElementById('app'));
+>>>>>>> 3bfae0b96ee7077d97ed86c4883f89fd7d755773
