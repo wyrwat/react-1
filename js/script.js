@@ -32,8 +32,4 @@ var app =
         React.createElement('h1', {}, 'Movies List'),
         React.createElement('ul', {}, movieElements)
         );
-<<<<<<< HEAD
-ReactDOM.render(app, document.getElementById('app'));
-=======
 ReactDOM.render(element, document.getElementById('app'));
->>>>>>> 3bfae0b96ee7077d97ed86c4883f89fd7d755773
